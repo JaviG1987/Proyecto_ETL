@@ -106,6 +106,13 @@
     ├── requirements.txt     # Recap de instalaciones y version 
     ├── .venv                # Carpeta del entorno virtual del proyecto
 
+## Next Steps
+
+    Control de errores
+    Parametrizar todo con funciones
+    Crear el .py
+    Crear el src
+
 ## Contacto
 
     Para cualquier consulta o mejora, puedes contactarme en JaviG1987.

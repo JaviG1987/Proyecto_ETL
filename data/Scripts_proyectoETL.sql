@@ -60,3 +60,13 @@ select e.nombre_evento,
 		e.fecha_inicio 
 from ciudad c 
 join eventos e on c.id_ciudad = e.id_ciudad ;
+
+select  c.nombre,
+		c.apellido ,
+		sum(precio_noche) as total_precio
+from reservas r 
+join clientes c on r.id_cliente = c.id_cliente 
+group by c.nombre , c.apellido 
+order by total_precio desc
+limit 10;
+
