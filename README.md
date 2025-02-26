@@ -8,9 +8,11 @@
 
     Importación de un archivo CSV con las reservas de clientes en hoteles de Madrid.
 
-    Web scraping de una página de hoteles de la competencia para obtener los 10 hoteles principales y sus precios por noche.
+    Web scraping de una página de hoteles de la competencia para obtener los 10 hoteles principales y sus precios por noche: 
+    
+    https://all.accor.com/ssr/app/ibis/hotels/madrid-spain/open/index.es.shtml?compositions=1&stayplus=false&snu=false&hideWDR=false&accessibleRooms=false&hideHotelDetails=false&dateIn=2025-03-01&nights=1&destination=madrid-spain
 
-    Consulta a una API de eventos de la ciudad de Madrid para extraer los eventos que ocurren entre las fechas de las reservas.
+    Consulta a la API: https://datos.madrid.es/egob/catalogo/300107-0-agenda-actividades-eventos.json de eventos de la ciudad de Madrid para extraer los eventos que ocurren entre las fechas de las reservas.
 
 ## Transformación de datos:
 
@@ -54,20 +56,7 @@
 
     time (manejo de temporizadores y retardos)
 
-## Instalación
 
-    Crear el repositorio:
-
-    https://github.com/JaviG1987/Proyecto_ETL
-
-### Crear un entorno virtual y activarlo:
-
-    python -m venv venv
-    source venv/bin/activate  # En Windows: venv\Scripts\activate
-
-    Instalar las dependencias:
-
-    pip install -r requirements.txt
 
 # USO
 
